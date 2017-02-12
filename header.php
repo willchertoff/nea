@@ -42,7 +42,7 @@
                 <a href="https://www.youtube.com/c/nationaleczema" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icon/youtube.svg"></a>
                 <a href="https://www.facebook.com/nationaleczema" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icon/facebook.svg"></a>
                 <a href="https://twitter.com/nationaleczema" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icon/twitter.svg"></a>
-                <a href="https://www.inspire.com/groups/national-eczema-association/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/home/support-forum-header.png"></a>
+                <a href="https://www.inspire.com/groups/national-eczema-association/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/eczema-wise.png"></a>
                 <a href="#" id="search-toggle"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icon/search.svg"></a>
               <?php get_search_form(); ?>
             </div>
