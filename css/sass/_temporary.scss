@@ -1,0 +1,21 @@
+/* Added by Dragonfly Design Group of National Eczema Month Landing Page */
+ 
+/* Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+.desktopX {visibility: hidden;}
+.mobileX {visibility: visible;}
+}
+ 
+/* Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+.desktopX {visibility: visible;}
+.mobileX {visibility: hidden;}
+}
+ 
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+.desktopX {visibility: visible;}
+.mobileX {visibility: hidden;}
+}
+/* end Added 9302015*/
+ 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="25px" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ez-enews" transform="translate(-319.000000, -494.000000)" fill="#003478">
+            <g id="checkbox" transform="translate(319.000000, 494.000000)">
+                <g id="Group">
+                    <polygon id="Shape" points="20.5344 21.9621 2.376 21.9621 2.376 3.8037 20.5344 3.8037 20.5344 3.8061 22.905 1.4355 22.905 1.4334 0.006 1.4334 0.006 24.3324 22.905 24.3324 22.905 13.278 20.5344 15.648"></polygon>
+                    <polygon id="Shape" points="26.5587 0.2676 14.4438 12.3831 8.2668 6.2058 4.8321 9.6411 14.4438 19.2528 29.994 3.7026"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+@media print {
+    .cta-click-wrapper, .search-and-social, .main-nav-desktop, .main-nav-mobile, .nea-wrapper-footer {
+        display: none;
+    }
+    .container-wrapper, .all-container-wrapper.boxed-layout, .cta-click-wrapper {
+        width: 100%; max-width: 100%;
+    }
+    .site-wrapper {
+        border-top: 0;
+    }
+    .header-wrapper {
+        padding-top: 40px;
+    }
+}

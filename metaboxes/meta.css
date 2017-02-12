@@ -1,0 +1,45 @@
+color .my_meta_control .description
+{ display:none;font-size:16px; }
+#poststuff .my_meta_control h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    clear: both;
+    float: none;
+    display: block;
+    line-height: 1em;
+    color: rgb(163, 0, 0);
+    font-size: 16px;
+    font-weight: bold;   
+}
+.my_meta_control label
+{ display:block; font-weight:bold; font-size:12px; margin:15px 0 0 0; }
+ 
+.my_meta_control label span
+{ display:inline; font-weight:normal; }
+ 
+.my_meta_control span
+{ color:#656565; display:block; }
+ 
+.my_meta_control textarea, .my_meta_control input[type='text'], .my_meta_control select
+{ padding:3px; width:90%; }
+ 
+.my_meta_control h4
+{ color:#656565; font-size:1em; margin:15px 6px; text-transform:uppercase; }
+
+.my_meta_control p {
+  color: #656565;
+  margin: 5px 0;
+}
+.image-upload a {
+  margin-top:10px!important;
+}
+.float-left {
+    float: left; 
+}
+.clear {
+    float: none; clear: both;
+}
+.my_meta_control select {
+    margin: 15px 0;
+}

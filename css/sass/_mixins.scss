@@ -1,0 +1,219 @@
+/* Mixins */
+$mobile-width: 450px;
+$tablet-width: 768px; 
+$desktop-width: 1024px;
+
+@mixin mobile { 
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin font-weight(){
+	font-weight: $normal;
+	&.bold{
+		font-weight: $bold;
+	}
+	&.light{
+		font-weight: $light;
+	}
+}
+
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: -moz-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+}
+
+@mixin myColors($name,$value) { 
+     .bg-#{"" + $name}{
+        background-color: $value;
+        &.hover:hover {
+            background-color: darken($value, 10%);
+        }
+     }
+     .border-#{"" + $name} {
+	  border-color: $value;
+     }
+}  
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin background-size($bgsize) {
+  -webkit-background-size: $bgsize;
+  -moz-background-size: $bgsize;
+  -o-background-size: $bgsize;
+  background-size: $bgsize;
+}
+
+@mixin box-shadow($blur) {
+     box-shadow: $blur;
+    -moz-box-shadow: $blur;
+    -webkit-box-shadow: $blur;
+}
+
+@mixin transition($setting) {
+  -webkit-transition: $setting;
+  -moz-transition: $setting;
+  -ms-transition: $setting;
+  -o-transition: $setting;
+  transition: $setting;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.icon {
+     display: inline-block;
+     width: 25px;
+     max-height: 25px;
+     vertical-align: middle;
+     margin: 0 10px 0px 50px;
+}
+.hover {
+    @include transition(.22s all);
+}
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
+.setH {
+    display: block;
+    overflow: hidden;
+}
+.rounded {
+    @include border-radius(3px);
+}
+.arrow {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 20px;
+    &:after {
+        content: '';
+        display: block;
+        @include border-radius(12px);
+        width:12px;
+        height: 12px;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        top: 25%;
+        z-index: 1;
+    }
+    &:before {
+        content: '\279E';
+        z-index: 2;
+        position: absolute;
+        right: 2px;
+        top: 25%;
+        font-size: 8px;
+    }
+}
+.bg-blue {
+    .arrow {
+        &:before {
+            color: #0098db;
+        }
+    }
+}
+.bg-green {
+    .arrow {
+        &:before {
+            color: #739600;
+        }
+    }
+}
+.block {
+    display: block;
+}
+.dotted-wrap {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px dotted #EBEBEB;
+    padding-bottom: 20px;
+}
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
+@mixin rotate($deg) {
+    @include transform(rotate(#{$deg}deg));
+}
+@mixin scale($scale) {
+    @include transform(scale($scale));
+} 
+@mixin translate($x, $y) {
+    @include transform(translate($x, $y));
+}
+@mixin skew($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+	     -o-transform-origin: $origin;
+	    -ms-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}
+
+@mixin blue-border {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border: 4px solid $blueD;
+  width: 10%;
+  margin: 0 auto;
+  left: 45%;
+}
+
+@mixin link-transition($time:600ms) {
+  transition: all $time cubic-bezier(0.075, 0.82, 0.165, 1);
+}

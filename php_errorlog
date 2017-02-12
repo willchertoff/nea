@@ -1,0 +1,6 @@
+[08-Feb-2017 15:19:22 CST6CDT] PHP Fatal error:  Call to undefined function language_attributes() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/header.php on line 6
+[08-Feb-2017 15:19:23 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/page-donate.php on line 7
+[08-Feb-2017 15:19:25 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/page-enews.php on line 6
+[08-Feb-2017 15:19:26 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/page-homepage.php on line 6
+[08-Feb-2017 15:19:48 CST6CDT] PHP Fatal error:  Call to undefined function home_url() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/searchform.php on line 1
+[08-Feb-2017 15:19:51 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/nati9630/public_html/wp-content/themes/nea_v2-child/functions.php on line 6

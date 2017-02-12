@@ -1,0 +1,6 @@
+.mobile {
+  display: none;
+  @include tablet() {
+    display: inherit;
+  }
+}

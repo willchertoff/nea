@@ -1,0 +1,66 @@
+/* GRID */
+.site-wrapper {
+	overflow-x: hidden;
+}
+.content-wrapper, .page-wrapper {
+	// padding:0 20px;
+}
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	.gdl-page-item {
+		width:100%;
+	}
+	.four.columns {
+		width:23%;
+		box-sizing: border-box;
+		margin: 20px 1% 0 1%;
+		vertical-align: top;
+	}
+}
+.full-width {
+	width:100%;
+}
+.mobile { display: none; }
+@include mobile {
+    .desktop { display: none; }
+    .mobile { display: block; }
+}
+.container-wrapper, .all-container-wrapper.boxed-layout, .cta-click-wrapper, .nea-wrapper-footer {
+    // width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+    @include tablet {
+        width: $tablet-width;
+    }
+    @include mobile {
+        width: 100%;
+        max-width: $mobile-width;
+    }
+}
+.cta-click-wrapper {
+	height: 40px;
+	position: relative;
+	margin-bottom: -40px;
+	z-index: 999;
+}
+
+.narrow {
+	font-family: 'Gotham Narrow A', 'Gotham Narrow B';
+}
+
+
+h3.blue-bg-h3 {
+	background: #0396dc;
+	color:#FFF;
+	border-radius: 3px;
+	padding:5px;
+	font-size: 17px;
+}
+

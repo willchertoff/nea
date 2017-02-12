@@ -1,0 +1,59 @@
+.arrow-circle {
+    content: '';
+    position: absolute;
+    background-color: $orange;
+    width: 15px;
+    height: 15px;
+    @include border-radius(100%);
+    z-index: 0;
+    top: 1px;
+}
+.arrow-arrow {
+    position: absolute;
+    content: "\2B05";
+    color: $white;
+    z-index: 1;
+    font-size: 9px;
+    top: 4px;
+    @include rotate(180);
+    line-height: 1em;
+}
+
+.cta-arrow {
+    position: relative;
+    color: $black;
+    display: block;
+    font-size: 12px;
+    margin: 5px 0;
+    &.arrow-left, &.arrow-right {
+        &:before {
+            @extend .arrow-arrow;
+        }
+        &:after {
+            @extend .arrow-circle;
+        }
+    }
+    &.arrow-left {
+        padding-left: 20px;
+        &:before {
+            left: 3px;            
+        }
+        &:after {
+            left: 0;
+        }
+    }
+    &.arrow-right {
+        padding-right: 20px;
+        &:before {
+            right: 3px;            
+        }
+        &:after {
+            right: 0;
+        }
+    }
+}
+.search-results {
+    h2 a {
+        color: $navy;
+    }
+}

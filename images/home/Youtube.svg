@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ez-homepage" transform="translate(-550.000000, -1175.000000)">
+            <g id="Youtube" filter="url(#filter-1)" transform="translate(554.000000, 1179.000000)">
+                <circle id="Oval-1-Copy-2" fill="#EA3832" cx="36.5" cy="36.5" r="36.5"></circle>
+                <g id="Group-5" transform="translate(16.222222, 22.015873)">
+                    <path d="M39.6168907,4.84472371 C39.1234959,2.70948306 37.3695148,1.13585275 35.2590374,0.900836104 C30.2601446,0.34436529 25.2009793,-0.00278652764 20.1633065,1.68517812e-05 C15.1256336,-0.00278652764 10.066001,0.34436529 5.06664107,0.900836104 C2.95616359,1.13585275 1.203117,2.70948306 0.710189452,4.84472371 C0.00887736815,7.88452146 0,11.202321 0,14.3327613 C0,17.4627345 0,20.780534 0.701779314,23.820799 C1.19517409,25.9541707 2.94822069,27.5296699 5.05869816,27.7632849 C10.0575909,28.3197557 15.1167563,28.6669075 20.1548963,28.6645714 C25.1925691,28.6669075 30.2522017,28.3202229 35.2506272,27.7632849 C37.3615719,27.5292027 39.1150858,25.9541707 39.6084805,23.820799 C40.3097926,20.780534 40.3149322,17.4627345 40.3149322,14.3327613 C40.3149322,11.2027882 40.31867,7.88452146 39.6168907,4.84472371" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M25.1262225,15.3155342 L15.6227663,20.4536614 C14.6780274,20.9648109 13.9047619,20.503655 13.9047619,19.4299607 L13.9047619,9.34386877 C13.9047619,8.26970722 14.6775602,7.80855131 15.6227663,8.31970082 L25.1262225,13.4582953 C26.0714286,13.9685103 26.0714286,14.8048519 25.1262225,15.3155342" id="Path" fill="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

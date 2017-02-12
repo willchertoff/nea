@@ -1,0 +1,353 @@
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul { }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-spacing: 0;
+		border: 0px solid; 
+		line-height: 20px;
+		width: 100%; }
+	tr th{
+		border-bottom: 1px solid;
+		text-align: left;
+	}
+	tr th, tr td{
+		padding: 9px 20px;
+		border-right: 0px solid;
+	}
+	tr th:last-child, tr td:last-child{
+		border-right: 0px;
+	}
+	table th{ font-weight: bold; }
+
+/* #Basic Styles
+================================================== */
+	
+	.subheader { color: #777; }
+
+
+	h1 {font-weight: bold; color: #181818;}
+	h2 {text-transform: uppercase; color: #003478;} 
+	h3 {text-transform: uppercase; color: #0098db;}
+	h4, h5, h6 { color: #181818;}
+
+
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em {
+            font-style: italic;
+        }
+        
+	strong { font-weight: bold; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a{ color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+
+
+
+/* ---------- FONTS  -------------- 
+
+GOTHAM NARROW BOOK
+
+font-family: 'Gotham Narrow A', 'Gotham Narrow B'; 
+font-weight: 400; 
+font-style: normal;
+
+GOTHAM NARROW MEDIUM
+
+font-family: 'Gotham Narrow A', 'Gotham Narrow B'; 
+font-weight: 500; 
+font-style: normal;
+
+GOTHAM BOOK
+
+font-family: 'Gotham A', 'Gotham B'; 
+font-weight: 400; 
+font-style: normal;
+
+GOTHAM BOOK ITALIC
+
+font-family: 'Gotham A', 'Gotham B'; 
+font-weight: 400; 
+font-style: italic;
+
+GOTHAM MEDIUM
+
+font-family: 'Gotham A', 'Gotham B'; 
+font-weight: 500; 
+font-style: normal;
+
+GOTHAM MEDIUM ITALIC
+
+font-family: 'Gotham A', 'Gotham B'; 
+font-weight: 500; 
+font-style: italic;
+
+SENTINEL SEMIBOLD
+
+font-family: 'Sentinel A', 'Sentinel B'; 
+font-weight: 600; 
+font-style: normal;
+
+SENTINEL BOLD ITALIC
+
+font-family: 'Sentinel A', 'Sentinel B'; 
+font-weight: 700; 
+font-style: italic;
+
+
+SENTINEL BOOK
+
+font-family: 'Sentinel A', 'Sentinel B'; 
+font-weight: 400; 
+font-style: normal;
+*/
+
+
+
+/* #Links
+================================================== */
+	a{ color: inherit; text-decoration: none; outline: 0; }
+	a:hover{ color: inherit; }
+	p a { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { }
+	ul {  }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc, ul { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px;  }
+	/*
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	*/
+	li { line-height: 18px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+	img{ display: block; }
+	
+	iframe{ display: block; }
+/* #Buttons
+================================================== */
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		height: 29px; line-height: 26px; padding: 1px 12px 0px 12px; display: inline-block; 
+		background: url('images/gradient-top4-32px.png') repeat-x; font-weight: bold; cursor: pointer;
+		
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px; }
+
+	button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		background-image: url('images/gradient-bottom4-32px.png'); }
+
+	button.full-width,
+	input[type="submit"].full-width,
+	input[type="reset"].full-width,
+	input[type="button"].full-width {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center; }
+		
+	a.gdl-button{
+		height: 26px; line-height: 26px; padding: 1px 12px 0px 12px; display: inline-block; 
+		background: url('images/gradient-top4-32px.png') repeat-x; font-weight: bold; cursor: pointer;
+		
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px; }
+	a.gdl-button:hover{
+		background-image: url('images/gradient-bottom4-32px.png'); 
+	}
+	
+	.gdl-image-frame{
+		padding: 4px; 
+		display: inline-block;
+	}
+#wpadminbar img { display: inline; }
+
+/* #Tabs (activate in tabs.js)
+================================================== */
+	ul.gdl-tabs { display: block; margin: 0 0 20px 0; padding: 0; list-style: none; border-bottom: solid 1px; }
+	ul.gdl-tabs li { display: block; width: auto; height: 30px; padding: 0; float: left; margin-bottom: 0; }
+	ul.gdl-tabs li a { display: block; text-decoration: none; width: auto; height: 29px; padding: 0px 20px; line-height: 30px;
+		border: solid 1px; border-width: 1px 1px 0 0; margin: 0; cursor: pointer; background: #f5f5f5; font-size: 13px; }
+	ul.gdl-tabs li a.active { background: #fff; height: 30px; position: relative; top: -4px; padding-top: 4px;
+		border-left-width: 1px; margin: 0 0 0 -1px; color: #111;
+		-moz-border-radius-topleft: 2px;  -webkit-border-top-left-radius: 2px;  border-top-left-radius: 2px; 
+		-moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; }
+	ul.gdl-tabs li:first-child a.active { margin-left: 0; }
+	ul.gdl-tabs li:first-child a { border-width: 1px 1px 0 1px;
+		-moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; }
+	ul.gdl-tabs li:last-child a { 
+		-moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; }
+
+	ul.gdl-tabs-content { margin: 0 0 20px; display: block; list-style: none; }
+	ul.gdl-tabs-content > li { display:none; }
+	ul.gdl-tabs-content > li.active { display: block; }
+
+	/* Clearfixing tabs for beautiful stacking */
+	ul.gdl-tabs:before,
+	ul.gdl-tabs:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+	ul.gdl-tabs:after { clear: both; }
+	ul.gdl-tabs { zoom: 1; }
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; 
+		line-height: 7px;}
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ecdebb;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #dddddd; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block; }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; } 
+		
+/* #Subscript
+================================================== */
+sup { 
+	height: 0; line-height: 1; position: relative; top: -0.6em; 
+	vertical-align: baseline; vertical-align: bottom; font-size: 10px;}
+sub { 
+	height: 0; line-height: 1; position: relative; top: +0.2em; 
+	vertical-align: baseline; vertical-align: bottom; font-size: 10px;}
+	
+/* #Custom Tag
+================================================== */
+	.wp-caption, .wp-caption-text,
+	.sticky, .gallery-caption,
+	.bypostauthor{ max-width: 100%; }
+	.alignright{ float: right; margin: 10px 10px 10px 30px;}
+	.alignleft{ float: left; margin: 10px 20px 10px 10px;}
+	.aligncenter{ margin: 0 auto 0; }
+	.shortcode-image-left{ margin-right: 12px; }
+	.shortcode-imarg-right{ margin-left: 12px; }  
+
+	br.clear{ clear: both; height: 0px; display: block; }
+	.display-none{ display: none; } 
+	.overflow-hidden{ position: relative; overflow: hidden; }
+	
+	.mt0{ margin-top: 0px;}
+	.mt10{ margin-top: 10px; }
+	.mt15{ margin-top: 15px; }
+	.mt20{ margin-top: 20px; }
+	.mt25{ margin-top: 25px; }
+	.mt30{ margin-top: 30px; }
+	.mt40{ margin-top: 40px; }
+	.mb0{ margin-bottom: 0px; }
+	.mb5{ margin-bottom: 5px; }
+	.mb10{ margin-bottom: 10px; }
+	.mb15{ margin-bottom: 15px; }
+	.mb20{ margin-bottom: 20px; }
+	.mb30{ margin-bottom: 30px; }
+	.ml0{ margin-left: 0px; }
+	.mr0{ margin-right: 0px; }
+	
+	.pt25{ padding-top: 25px; }
+
+	/*disable blank space*/
+	cufon[alt=" "]{ 
+	   display: none; 
+	} 
+	
+	/*--- color animation ---*/
+	a{
+		transition: color 300ms, background-color 300ms, opacity 300ms;
+		-moz-transition: color 300ms, background-color 300ms, opacity 300ms;    /* FF3.7+ */
+		-o-transition: color 300ms, background-color 300ms, opacity 300ms;      /* Opera 10.5 */
+		-webkit-transition: color 300ms, background-color 300ms, opacity 300ms; /* Saf3.2+, Chrome */ }	
+
+
+.clear {
+	float: none;
+	clear:both;
+}

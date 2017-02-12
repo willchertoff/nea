@@ -1,0 +1,26 @@
+.footer {
+	background-color: $blueD;
+	.row {
+		margin: auto;
+		width: 70%;
+		padding: 3em 0;
+		.footer-menu-title {
+			opacity: .5;
+			letter-spacing: 2px;
+		}
+		ul {
+			margin-top: 2em;
+			list-style: none;
+			li {
+				line-height: 1.5em;
+			}
+		}
+	}
+	a {
+		color: white;
+		@include link-transition();
+		&:hover {
+			opacity: .7;
+		}
+	}
+}

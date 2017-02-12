@@ -1,0 +1,59 @@
+/* Colors */
+
+/* Client Color */
+
+/* Font Colors */
+
+/* Primary Colors */
+
+$black : #56606e;
+.black { color: $black; }
+@include myColors(black,$black);
+
+$white : #FFFFFF;
+.white { color: $white; }
+@include myColors(white,$white);
+
+$green : #739600;
+.green { color: $green; }
+@include myColors(green,$green);
+
+$orange : #ef7f2c;
+.orange { color: $orange; }
+@include myColors(orange,$orange);
+
+$blueD : #003478;
+.blueD { color: $blueD; }
+@include myColors(blueD,$blueD);
+
+$blue : #0098db;
+.blue { color: $blue; }
+@include myColors(blue,$blue);
+
+$blueL : #b2e0f4;
+.blueL { color: $blueL; }
+@include myColors(blueL,$blueL);
+
+$navy : #003478;
+.navy { color: $navy; }
+@include myColors(navy,$navy);
+
+$grey : #959aa1;
+.grey { color: $grey; }
+@include myColors(grey,$grey);
+
+$border : #e3f0f3;
+.border { color: $border; }
+@include myColors(border,$border);
+
+$yellow : #f5eedd;
+.yellow { color: $yellow; }
+@include myColors(yellow,$yellow);
+
+$beige : #ecdebb;
+.beige { color: $beige; }
+@include myColors(beige,$beige);
+
+$red : #C50000;
+.red { color: $red; }
+@include myColors(red,$red);

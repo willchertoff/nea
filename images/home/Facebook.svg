@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ez-homepage" transform="translate(-289.000000, -1175.000000)">
+            <g id="Facebook" filter="url(#filter-1)" transform="translate(293.000000, 1179.000000)">
+                <circle id="Oval-1" fill="#365AA2" cx="36.5" cy="36.5" r="36.5"></circle>
+                <g id="noun_20845" transform="translate(29.547619, 22.015873)" fill="#FFFFFF">
+                    <path d="M5.5751294,1.37347308 C4.51400966,1.9490597 3.77091097,2.71860766 3.36346618,3.66259489 C2.98247067,4.54990511 2.79606625,5.80561594 2.79606625,7.50907522 L2.79606625,8.0884403 L0.0516390614,8.0884403 L0.0516390614,13.6295635 L2.79606625,13.6295635 L2.79606625,28.4216356 L9.39075224,28.4216356 L9.39075224,13.6301932 L13.0842046,13.6301932 L13.0842046,8.08907005 L9.39075224,8.08907005 L9.39075224,7.59723948 C9.39075224,6.52982229 9.60990338,6.26155107 9.6369824,6.23258282 C9.77867495,6.08018461 10.1111801,5.99642857 10.570264,5.99642857 C11.2258282,5.99642857 11.9248447,6.08207384 12.6471618,6.25525362 L13.4840925,6.45488268 L14.4576777,1.43707729 L13.7523637,1.21477743 C10.8939527,0.31676156 7.5947205,0.277717391 5.5751294,1.37347308 L5.5751294,1.37347308 Z M12.1836698,4.47874396 C10.6237923,4.22495687 9.15333851,4.32319703 8.42346446,5.10911836 C7.95997239,5.60535714 7.73515355,6.41835749 7.73515355,7.59597999 L7.73515355,9.74152001 L11.4304952,9.74152001 L11.4304952,11.9771135 L7.73515355,11.9771135 L7.73515355,26.7710749 L4.44599724,26.7710749 L4.44599724,11.9777433 L1.70282954,11.9777433 L1.70282954,9.74214976 L4.44599724,9.74214976 L4.44599724,7.50907522 C4.44599724,6.0575138 4.59146825,4.98316943 4.87926156,4.31815908 C5.14060559,3.71297447 5.62487923,3.22681159 6.36168047,2.82566425 C7.80820393,2.04037267 10.3202553,2.02777778 12.5508109,2.59013975 L12.1836698,4.47874396 L12.1836698,4.47874396 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

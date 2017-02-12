@@ -1,0 +1,51 @@
+.email-capture-box {
+  background-color: $blue;
+  border-top: 16px solid $blueD;
+  padding: 25px 50px;
+  &.landscape {
+    max-width: 400px;
+  }
+  h2 {
+    font-size: 30px;
+    color: $blueD;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+  input:not([type="submit"]) {
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    margin: 2em auto;
+    box-sizing: content-box;
+    height: 20px;
+    font-size: 14px;
+    @include link-transition();
+    &:focus {
+      background-color: $blueD;
+      color: white;
+    }
+  }
+  input[type="submit"] {
+    width: 90%;
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    box-sizing: content-box;
+    border-radius: 5px;
+    @include link-transition();
+    &:hover {
+      background-color: white;
+      color: $green;
+    }
+  }
+}
