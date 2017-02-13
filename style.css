@@ -713,6 +713,10 @@ Template: nea_v2
     padding: 12px 2px 2px 0px;
 }
 
+#site-top-bar #sign-up div {
+    display: block;
+    text-align: left;
+}
 #header-email-capture #gform_3 {
     display: flex;
     justify-content: center;
@@ -737,6 +741,13 @@ Template: nea_v2
     flex-flow: row;
     justify-content: center;
     align-items: center;
+}
+
+#header-email-capture .ginput_right {
+    margin: 0 !important;
+    display: block;
+    padding: 0 !important;
+    width: 100%;
 }
 
 #header-email-capture .gform_wrapper .top_label .gfield_label {
