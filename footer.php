@@ -16,8 +16,9 @@
         <a class="footer-menu-title" href="#">CONNECT</a>
 				<?php wp_nav_menu( array('menu' => 'Footer Menu - 3', 'menu_class' => 'nea-footer-menu-3', )); ?>
       </div>
-      <div class="small-12 large-3 columns">
-        <!-- <img id="logo" src="<?php echo get_stylesheet_directory_uri();?>/images/logo_nea.png"> -->
+      <div class="small-12 large-3 columns last-footer-column">
+        <a href="https://www.nationalhealthcouncil.org/resources/standards-excellence-certification-program" target="_blank">
+        <img id="nhc-logo" src="<?php echo get_stylesheet_directory_uri();?>/images/nhc.jpg"></a>
       </div>
 		</div>
 	</div>

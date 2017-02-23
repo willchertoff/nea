@@ -9,7 +9,7 @@ Template: nea_v2
 */
 
 @import url('build/style.css');
-/*BREAKPOINTS*/  
+/*BREAKPOINTS*/
 @media (max-width: 450px) {
 }
 @media (max-width: 767px) {
@@ -700,7 +700,7 @@ Template: nea_v2
 
 /*STYLES BELOW FOR DEV SERVER*/
 /*styles for email capture in header*/
-.gform_ajax_spinner {
+/*.gform_ajax_spinner {
     display: none;
 }
 
@@ -1296,9 +1296,11 @@ Template: nea_v2
 
 .gform_ajax_spinner {
     display: none;
-}
+}*/
+
+
 /*************************************
-	New Columns 
+	New Columns
 *************************************/
 .template-donation-wrapper .col-base {
 	display: block;
@@ -1364,18 +1366,18 @@ Template: nea_v2
 .template-donation-wrapper .col-50, .template-donation-wrapper .gform_wrapper li.col-50 {
     width: 100%!important;
 	max-width: 100%!important;
-}	
+}
 }
 @media (max-width: 767px) {
 
 }
 /*************************************
-	Donation Page 
+	Donation Page
 *************************************/
 .sidebar-text {
 }
 .sidebar-text h2.sub-menu-header {
-	
+
 	font-family: 'Gotham Narrow B', 'Montserrat', sans-serif;
 	background-color: transparent;
 	display: block;
@@ -1445,12 +1447,12 @@ Radio Button
 }
 .template-donation-wrapper label{
 	background-image:url('images/radio_blue.png');
-} 
+}
 .template-donation-wrapper .gfield_label {
 	background-image:none;
 }*/
 /*************************************
-	Donation Page 
+	Donation Page
 *************************************/
 
 
@@ -1482,7 +1484,7 @@ Radio Button
 	width: auto!important;
 }
 .template-donation-wrapper .ginput_container_radio input[type="submit"] {
-	padding-top: 5px;	
+	padding-top: 5px;
 }
 .template-donation-wrapper select{
 	margin-top: 3px;
@@ -1623,7 +1625,7 @@ Radio Button
 }
 .template-donation-wrapper .tdw-pay-options .trpayoptns input {
 	margin-left: 1px!important;
-	padding-left: 1px!important;	
+	padding-left: 1px!important;
 }
 .template-donation-wrapper #donate_now .gform_wrapper li.tdw-pay-options .tdw-pay-options {
 	padding-left: 5px!important;
@@ -1637,7 +1639,7 @@ Radio Button
 }
 .template-donation-wrapper .ginput_container_radio {
 	width: 100%!important;
-	padding-top: 5px;	
+	padding-top: 5px;
 }
 .template-donation-wrapper .gsection {
 	clear: both;
@@ -1727,7 +1729,7 @@ Radio Button
 @media (max-width: 450px) {
 .template-donation-wrapper .tdw-name input {
     width: 100%!important;
-}	
+}
 }
 @media (max-width: 767px) {
 
@@ -1877,7 +1879,7 @@ Radio Button
 	display:none!important;
 }
 /*************************************
-	Donation Buttons 
+	Donation Buttons
 *************************************/
 .template-donation-wrapper .form-set-amounts {
 	margin-top: 16px!important;
@@ -1947,635 +1949,25 @@ body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul
 	background-color: #0098db;
 }
 
-/*styles below for developing on jose's local only*/
-/*styles for email capture in header*/
-/*.gform_ajax_spinner {
-    display: none;
+.last-footer-column {
+  text-align: center;
+  background: white;
+  height: 100%;
 }
 
-#sign-up {
-    display: flex;
-    justify-content: flex-end;
+#nhc-logo {
+  width: 75%;
+  padding-top: 2%;
 }
 
-#site-top-bar #sign-up p {
-    padding: 12px 2px 2px 0px;
-}
-
-#field_5_3 {
-    display: none;
-}
-#input_5_3 {
-   display: none;
-}
-
-.gfield_description {
-   display: none;
-}
-
-#header-email-capture {
-   padding-top: 0;
-}
-
-#header-email-capture #gform_5 {
-    display: flex;
-    justify-content: center;
-}
-
-#header-email-capture .gform_wrapper ul, .salesforce_w2l_lead ul {
-   display: flex;
-   justify-content: center;
-}
-
-.gform_wrapper li, .salesforce_w2l_lead li {
-    width: auto;
-    padding: 0;
-}
-
-#header-email-capture .ginput_container {
-    width: auto;
-    border-radius: 5px;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#header-email-capture .gform_wrapper .top_label .gfield_label {
-    display: none;
-}
-
-#header-email-capture #gform_submit_button_5 {
-    padding: 10px 15px 8px 15px;
-    border-radius: 5px;
-    margin-left: 2px;
-}
-
-#header-email-capture #input_5_1,#header-email-capture #input_5_2_5 {
-    margin: 0 2px 0 2px;
-    border: none;
-    background-color: rgba(149, 154, 161, 0.15);
-    padding: 10px 5px 10px 5px;
-    font-size: 12px;
-}
-
-#header-email-capture #input_5_1 {
-    width: 98%;
-}
-
-#header-email-capture #input_5_2_5 {
-    width: 55px;
-}
-
-#header-email-capture .gform_wrapper .gform_footer {
-    margin: 0;
-    padding: 0;
-}
-
-#header-email-capture #input_5_2_5_label {
-    display: none;
-}
-
-#header-email-capture #gform_confirmation_message_5 {
-    text-align: center;
-    color: #ffffff;
-    background-color: #739600;
-    font-size: 13px;
-    vertical-align: middle;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-#field_5_1, #field_5_2 {
-    margin-top: 0;
-    padding-right: 1%;
-}
-#gf_5 .validation_alert {
-    display; none;
-}
-
-#field_5_1 .validation_message {
-    display: block;
-}
-
-#field_5_2 .validation_message {
-    text-align: center;
-    float: left;
-    width: 60%;
-}*/
-
-
-/*styles for slide-up form*/
-
-/*#field_5_3 {
-    display: none;
-}
-
-#pum-13402 #gform_wrapper_5 {
-    width: auto;
-    max-width: 100%;
-}
-
-#pum-13402 .gform_wrapper li {
-    width: auto;
-    padding: 0;
-    margin: 0 0 0 0;
-}
-#pum-13402 #gform_5 {
-    display: flex;
-    justify-content: center;
-}
-
-#pum-13402 .email-capture-form {
-    display: flex;
-    justify-content: center;
-}
-
- #pum-13402 .gform_wrapper ul, .salesforce_w2l_lead ul {
-    display: flex;
-    justify-content: center;
-}
-
-#pum-13402 .ginput_container {
-    width: auto;
-    border-radius: 5px;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#pum-13402 .gform_wrapper .top_label .gfield_label {
-    display: none;
-}
-
-#pum-13402 #gform_submit_button_5 {
-    padding: 5px 15px 5px 15px;
-    border-radius: 3px;
-    margin: 0 2px 0 2px;
-}
-
-#pum-13402 #input_5_1, #input_5_2_5 {
-    margin: 0 3px 0 3px;
-    border: none;
-    background: #ffffff;
-    padding-left: 8px;
-    border-radius: 3px;
-}
-
-#pum-13402 #input_5_1 {
-    width: auto;
-}
-
-#pum-13402 .ginput_right {
-    width: auto;
-    min-height: 0;
-}
-#pum-13402 #input_5_2_5 {
-    width: 55px;
-}
-
-#pum-13402 .gform_wrapper .gform_footer {
-    margin: 0;
-    padding: 0;
-}
-
-.gform_wrapper .top_label .gfield_label {
-    display: none;
-}
-
-#input_5_2_5_label {
-    display: none;
-}
-#pum-13402 #gform_confirmation_message_5 {
-    text-align: center;
-}
-
-#pum-13402 .validation_error {
-    color: #ffffff;
-    border: #ef7f2c;
-    border-style: solid;
-    padding: 4px;
-}
-
-@media only screen and (max-width: 641px){
-  #pum-13402 .gform_wrapper li.field_sublabel_below .ginput_complex {
-    margin-top: 0px !important;
-  }
-}
-*/
-
-/*styles for enews email capture on upper half of page*/
-/*#enews-email-capture-lower #gf_6 {
-    display: none;
-}*/
-
-/*#enews-email-capture-upper .gfield_label {
-    display: none;
-}
-
-#enews-email-capture-upper .gform_wrapper * {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#enews-email-capture-upper #gform_wrapper_5 {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#enews-email-capture-upper .gform_wrapper li {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 0 0;
-}
-#enews-email-capture-upper #gform_5 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-#enews-email-capture-upper .email-capture-form {
-    width: 100%;
-}
-
- #enews-email-capture-upper .gform_wrapper ul, .salesforce_w2l_lead ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#enews-email-capture-upper #input_5_1, #enews-email-capture-upper #input_5_2_5 {
-    margin: 1em auto;
-    padding: 1em 0 1em 0;
-    text-indent: 1em;
-}
-
-#enews-email-capture-upper #input_5_1:focus, #enews-email-capture-upper #input_5_2_5:focus {
-    background-color: #003478;
-    color: white;
-}
-
-#enews-email-capture-upper #input_5_2_5_container {
-    width: 100%;
-    margin: 0;
-}
-
-#enews-email-capture-upper .gform_wrapper .ginput_complex .ginput_right {
-    min-height: 0;
-    vertical-align: middle;
-}
-
-#enews-email-capture-upper #gform_submit_button_5 {
-    padding: 1em 0;
-    margin: 2em 0;
-    font-size: 18px;
-    font-weight: 200;
-}
-
-#enews-email-capture-upper #gform_confirmation_message_5 {
-    text-align: center;
-    color: white;
-    padding: 6em;
-}
-
-.gform_ajax_spinner {
-    display: none;
-}*/
-
-/*styles for enews email capture on bottom half of page*/
-/*#enews-email-capture-lower #gf_6 {
-    display: none;
-}
 
-#enews-email-capture-lower .gfield_label {
-    display: none;
+#site-top-bar #sign-up div {
+  display: block;
+  text-align: left;
 }
 
-#enews-email-capture-lower .gform_wrapper * {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+#header-email-capture .ginput_right {
+  margin: 0 !important;
+  display: block;    padding: 0 !important;
+  width: 100%;
 }
-
-#enews-email-capture-lower #gform_wrapper_6 {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#enews-email-capture-lower .gform_wrapper li {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 0 0;
-}
-
-#enews-email-capture-lower #gform_6 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-#enews-email-capture-lower .email-capture-form {
-    width: 100%;
-}
-
- #enews-email-capture-lower .gform_wrapper ul, .salesforce_w2l_lead ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#sign-up-bottom #enews-email-capture-lower #input_6_1, #sign-up-bottom #enews-email-capture-lower #input_6_2_5 {
-    margin: 1em auto;
-    padding: 1em 0 1em 0;
-    text-indent: 1em;
-    width: 98%;
-}
-
-#enews-email-capture-lower #input_6_1:focus, #enews-email-capture-lower #input_6_2_5:focus {
-    background-color: #003478;
-    color: white;
-}
-
-#enews-email-capture-lower #input_6_2_5_label {
-    display: none;
-}
-
-#enews-email-capture-lower #input_6_2_5_container {
-    width: 100%;
-    margin: 0;
-}
-
-#enews-email-capture-lower .gform_wrapper .ginput_complex .ginput_right {
-    min-height: 0;
-    vertical-align: middle;
-}
-
-#enews #sign-up-bottom #enews-email-capture-lower #gform_submit_button_6 {
-    font-size: 18px;
-    font-weight: 200;
-    width: 87%;
-}
-
-#enews-email-capture-lower #gform_confirmation_message_6 {
-    text-align: center;
-    color: white;
-    padding: 6em;
-}
-
-.gform_ajax_spinner {
-    display: none;
-}*/
-
-/*styles for enews email capture on longform pages*/
-/*#longform-email-capture #gf_5 {
-    display: none;
-}
-
-#longform-email-capture .gfield_label {
-    display: none;
-}
-
-#longform-email-capture .gform_wrapper * {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#longform-email-capture #gform_wrapper_5 {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#longform-email-capture .gform_wrapper li {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 0 0;
-}
-#longform-email-capture #gform_5 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-#longform-email-capture .email-capture-form {
-    width: 100%;
-}
-
- #longform-email-capture .gform_wrapper ul, .salesforce_w2l_lead ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#longform-email-capture #input_5_1, #longform-email-capture #input_5_2_5 {
-    margin: 1em auto;
-    padding: 1em 0 1em 0;
-    text-indent: 1em;
-}
-
-#longform-email-capture #input_5_1:focus, #longform-email-capture #input_5_2_5:focus {
-    background-color: #003478;
-    color: white;
-}
-
-#longform-email-capture #input_5_2_5_container {
-    width: 100%;
-    margin: 0;
-}
-
-#longform-email-capture .gform_wrapper .ginput_complex .ginput_right {
-    min-height: 0;
-    vertical-align: middle;
-}
-
-#longform-email-capture #gform_submit_button_5 {
-    padding: 1em 0;
-    margin: 2em 0;
-    font-size: 18px;
-    font-weight: 200;
-}
-
-#longform-email-capture #gform_confirmation_message_5 {
-    text-align: center;
-    color: white;
-    padding: 6em;
-}
-
-#longform-email-capture #input_5_2_5_label {
-    display: none;
-}
-
-.gform_ajax_spinner {
-    display: none;
-}*/
-
-/*Styles for short code plugin*/
-/*#nea-shortcode-email-banner {
-    display: flex;
-    flex-direction: column;
-}
-
-#nea-shortcode-email-banner .capture-headers {
-    justify-content: center;
-    text-align: center;
-}
-
-#nea-shortcode-email-banner .bullets-and-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 3%;
-}
-
-#nea-shortcode-email-banner .capture-bullets {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 5%;
-    text-align: left;
-    width: 50%;
-    margin: 0;
-}
-
-
-#nea-shortcode-email-banner .signup-box {
-    width: 50%;
-    margin: 0 auto;
-    background-color: #0098DB;
-    border-top: 16px solid #003478;
-    padding-bottom: 2%;
-}
-
-#nea-shortcode-email-banner .signup-box-headers {
-    text-align: center;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 1%;
-}
-
-#nea-shortcode-email-banner .signup-box-headers h2 {
-    color: #003478;
-    text-transform: none;
-    font-weight: bolder;
-    margin-bottom: 1%;
-}
-
-#nea-shortcode-email-banner .signup-box-headers p {
-    color: white;
-    padding-top: 2px;
-}
-
-#nea-shortcode-email-banner #nea-banner-hr {
-    height: 2px;
-    background-color: #DEDEDE;
-    width: 100%;
-    margin-bottom: 3%;
-}
-
-#nea-shortcode-email-banner #gf_5 {
-    display: none;
-}
-
-#nea-shortcode-email-banner .gfield_label {
-    display: none;
-}
-
-#nea-shortcode-email-banner .gform_wrapper * {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#nea-shortcode-email-banner #gform_wrapper_5 {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#nea-shortcode-email-banner .gform_wrapper li {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 0 0;
-}
-#nea-shortcode-email-banner #gform_5 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-#nea-shortcode-email-banner .email-capture-form {
-    width: 100%;
-}
-
- #nea-shortcode-email-banner .gform_wrapper ul, .salesforce_w2l_lead ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#nea-shortcode-email-banner #input_5_1, #nea-shortcode-email-banner #input_5_2_5 {
-    margin: .5em auto;
-    padding: 1em 0 1em 0;
-    text-indent: 1em;
-    background-color: white;
-}
-
-#nea-shortcode-email-banner #input_5_1:focus, #nea-shortcode-email-banner #input_5_2_5:focus {
-    background-color: #003478;
-    color: white;
-}
-
-#nea-shortcode-email-banner #input_5_2_5_container {
-    width: 100%;
-    margin: 0;
-}
-
-#nea-shortcode-email-banner .gform_wrapper .ginput_complex .ginput_right {
-    min-height: 0;
-    vertical-align: middle;
-}
-
-#nea-shortcode-email-banner #gform_submit_button_5 {
-    padding: 1em 0;
-    margin: 1em 0;
-    font-size: 18px;
-    font-weight: 200;
-}
-
-#nea-shortcode-email-banner #gform_confirmation_message_5 {
-    text-align: center;
-    color: white;
-    padding: 3em 0;
-}
-
-#nea-shortcode-email-banner #input_5_2_5_label {
-    display: none;
-}
-
-.gform_ajax_spinner {
-    display: none;
-}*/
-
-/*styles above for developing on jose's local only*/
