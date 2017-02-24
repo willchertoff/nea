@@ -304,7 +304,7 @@ html #wpadminbar {
   border-color: #C50000; }
 
 .sans, .sub-menu-header {
-  font-family: "Sentinel Narrow A","Sentinel Narrow B"; }
+  font-family: "Sentinel A","Sentinel B"; }
 
 .serif {
   font-family: "Gotham A","Gotham B"; }
@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-bottom: 20px;*/ }
 
 h1, h1 a, h2, h2 a {
-  font-family: "Sentinel Narrow A", "Sentinel Narrow B";
+  font-family: "Sentinel A", "Sentinel B";
   font-weight: 600;
   font-style: normal; }
 
@@ -2128,7 +2128,7 @@ div#lightbox-content.show a {
       padding-left: 0; }
   .column-grid h1 {
     color: #739600;
-    font-family: "Sentinel Narrow A", "Sentinel Narrow B";
+    font-family: "Sentinel A", "Sentinel B";
     font-size: 48px;
     margin-bottom: 24px;
     line-height: 1em; }
@@ -2265,7 +2265,7 @@ div#lightbox-content.show a {
   display: table;
   margin: auto;
   position: relative;
-  font-family: "Sentinel Narrow A", "Sentinel Narrow B";
+  font-family: "Sentinel A", "Sentinel B";
   font-size: 21px;
   letter-spacing: 1px;
   background-color: #FFFFFF;
@@ -2570,7 +2570,7 @@ div#lightbox-content.show a {
   #long-form-body .title span {
     text-align: center;
     color: #739600;
-    font-family: "Sentinel Narrow A", "Sentinel Narrow B";
+    font-family: "Sentinel A", "Sentinel B";
     font-size: 46px;
     width: 100%;
     display: block;
@@ -2633,7 +2633,7 @@ div#lightbox-content.show a {
       width: 100%;
       height: auto; }
     #long-form-body #long-form-body h3, #long-form-body #long-form-body h1 {
-      font-family: "Sentinel Narrow A", "Sentinel Narrow B";
+      font-family: "Sentinel A", "Sentinel B";
       font-size: 30px;
       color: #739600;
       margin-top: 0;

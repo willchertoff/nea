@@ -1365,7 +1365,7 @@ body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul
   }
   .columns:last-child:not(:first-child) {
     float: left;
-}
+  }
 }
 
 #site-top-bar #sign-up div {
@@ -1377,4 +1377,9 @@ body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul
   margin: 0 !important;
   display: block;    padding: 0 !important;
   width: 100%;
+}
+
+.header-wrapper .grid .col-3-4 .sf-menu li a{
+  font-size: 16px;
+  padding: 1.6em 0;
 }
