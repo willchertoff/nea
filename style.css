@@ -1383,3 +1383,8 @@ body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul
   font-size: 16px;
   padding: 1.6em 0;
 }
+
+/*infographic for eczema/complementary-and-alternative-treatements*/
+.etracker-infograph {
+  width: 100%;
+}
