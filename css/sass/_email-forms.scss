@@ -1,0 +1,116 @@
+// Styling for email sign-up forms #42-47
+.gform_ajax_spinner {
+    display: none;
+}
+
+.gfield_description {
+    display: none;
+}
+////////////////
+// Header form//
+////////////////
+#site-top-bar #sign-up {
+  display: flex;
+  justify-content: flex-end;
+  p {
+    padding: 12px 2px 2px 0px;
+  }
+  div {
+    display: block;
+    text-align: left;
+  }
+  #header-email-capture {
+    padding-top: 0;
+    #gform_44 {
+        display: flex;
+        justify-content: center;
+    }
+    .gform_wrapper {
+      .top_label {
+        .gfield_label {
+          display: none;
+        }
+      }
+      .gform_footer {
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .gform_wrapper, .salesforce_w2l_lead {
+      ul {
+       display: flex;
+       justify-content: center;
+       li {
+         width: auto;
+         padding: 0;
+       }
+     }
+    }
+    .ginput_container {
+        width: auto;
+        border-radius: 5px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #gform_submit_button_44 {
+      padding: 10px 15px 8px 15px;
+      border-radius: 5px;
+      margin-left: 2px;
+    }
+    #input_44_1, #input_44_2_5 {
+      margin: 0 2px 0 2px;
+      border: none;
+      background-color: rgba(149, 154, 161, 0.15);
+      padding: 10px 5px 10px 5px;
+      font-size: 12px;
+    }
+    #input_44_1 {
+      width: 98%;
+    }
+    #input_44_2_5 {
+      width: 55px;
+    }
+
+
+    #input_44_2_5_label {
+      display: none;
+    }
+
+    #gform_confirmation_message_44 {
+      text-align: center;
+      color: #ffffff;
+      background-color: #739600;
+      font-size: 13px;
+      vertical-align: middle;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    #field_44_1, #field_44_2 {
+        margin-top: 0;
+        padding-right: 1%;
+    }
+    #gf_44 .validation_alert {
+        display: none;
+    }
+
+    #field_44_1 .validation_message {
+        display: block;
+    }
+
+    #field_44_2 .validation_message {
+        text-align: center;
+        float: left;
+        width: 60%;
+    }
+
+    .ginput_right {
+      margin: 0 !important;
+      display: block;    padding: 0 !important;
+      width: 100%;
+    }
+  }
+}

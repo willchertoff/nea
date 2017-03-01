@@ -23,4 +23,29 @@
 			opacity: .7;
 		}
 	}
+	.last-footer-column {
+	  text-align: center;
+	  /*background: white;*/
+	  /*height: 100%;*/
+	}
+
+	#nhc-logo {
+	  width: 75%;
+	  max-width: 150px;
+	  background: white;
+	  padding: 2%;
+	}
+
+	@media (max-width: 1023px) {
+	  .last-footer-column {
+	    width: 45%;
+	    text-align: left;
+	  }
+	  .columns:last-child:not(:first-child) {
+	    float: left;
+	  }
+	  #nhc-logo {
+	    margin-top: 5%;
+	  }
+	}
 }

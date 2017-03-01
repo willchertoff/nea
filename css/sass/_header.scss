@@ -26,7 +26,7 @@
             }
             .col-3-4 {
                 .sf-menu {
-                    margin: 0 5px; 
+                    margin: 0 5px;
                     li {
                         a {
                             font-size: 14px;
@@ -76,7 +76,7 @@
 				position: absolute;
 				right: 10px;
 				top: 15px;
-				
+
 			}
 		}
 		&.popup {
@@ -86,7 +86,7 @@
 			top: 100%;
 			background-color: $blueD;
             padding: 3%;
-			z-index: 99999;	
+			z-index: 99999;
             font-size: 20px;
 			@include link-transition(1s);
             opacity: 0;
@@ -117,7 +117,7 @@
 			font-size: 20px;
 			line-height: 2em;
 		}
-	}	
+	}
 }
 .close-mobile-menu {
     display: none;
@@ -136,8 +136,8 @@
             background-color: white;
             position: absolute; right: 8px; top: 0;
             @include border-radius(4px);
-            @include rotate(45); 
-            @include transform-origin(50%); 
+            @include rotate(45);
+            @include transform-origin(50%);
         }
         &:after {
             @include rotate(-45);
@@ -155,7 +155,7 @@
     >li {
         text-align: center;
         // border-bottom: 4px solid $blueD;
-        width: 100%; 
+        width: 100%;
         @include link-transition();
         &.donate-menu-item {
             background-color: $blue;
@@ -181,7 +181,7 @@
             &:hover {
                 transition-delay: .2s;
                 background-color: $blue;
-            }            
+            }
         }
 
     }
@@ -366,7 +366,9 @@
             &:hover {
                 opacity: .7;
             }
+          img {
+            max-height: 33px;
+          }
         }
     }
 }
-
