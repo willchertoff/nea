@@ -6,6 +6,16 @@
 .gfield_description {
     display: none;
 }
+//
+// #gform_44 {
+//   .gform_wrapper {
+//     .ginput_complex {
+//       .ginput_left, .ginput_right .address_zip {
+//         min-height: inherit;
+//     }
+//   }
+// }
+// }
 ////////////////
 // Header form//
 ////////////////
@@ -98,18 +108,25 @@
     }
 
     #field_44_1 .validation_message {
-        display: block;
+        // display: block;
+        display: none;
     }
 
     #field_44_2 .validation_message {
         text-align: center;
         float: left;
         width: 60%;
+        display: none;
+    }
+
+    #input_44_1_container, #input_44_2_5_container {
+      min-height: 0;
     }
 
     .ginput_right {
-      margin: 0 !important;
-      display: block;    padding: 0 !important;
+      margin: 0;
+      display: block;
+      padding: 0;
       width: 100%;
     }
   }
