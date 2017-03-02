@@ -2921,7 +2921,22 @@ h3.blue-bg-h3 {
   }
 }
 
-/* line 146, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+/* line 151, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+#gform_47 #gform_fields_47 {
+  justify-content: flex-end;
+}
+
+/* line 154, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+#gform_47 .gform_footer {
+  text-align: left;
+}
+
+/* line 157, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+#gform_47 .gform_body, #gform_47 .gform_footer {
+  width: auto;
+}
+
+/* line 165, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
 #gform_submit_button_42,
 #gform_submit_button_43,
 #gform_submit_button_44,

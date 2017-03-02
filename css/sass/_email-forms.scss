@@ -142,6 +142,25 @@
         }
     }
 }
+
+//////////////////
+// slide-up form//
+//////////////////
+
+#gform_47 {
+  #gform_fields_47 {
+    justify-content: flex-end;
+  }
+  .gform_footer {
+    text-align: left;
+  }
+  .gform_body, .gform_footer {
+    width: auto;
+  }
+}
+
+
+
 //fixes border-box for email signup forms affected by gravity forms version update//
 #gform_submit_button_42,
 #gform_submit_button_43,
