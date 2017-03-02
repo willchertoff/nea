@@ -10,8 +10,9 @@
 ////////////////
 // Header form//
 ////////////////
+
 #site-top-bar #sign-up {
-@media (min-width: 1024px) {
+    @media (min-width: 1024px) {
         display: flex;
         justify-content: flex-end;
 
@@ -142,25 +143,55 @@
         }
     }
 }
-
 //////////////////
 // slide-up form//
 //////////////////
 
 #gform_47 {
-  #gform_fields_47 {
-    justify-content: flex-end;
-  }
-  .gform_footer {
-    text-align: left;
-  }
-  .gform_body, .gform_footer {
-    width: auto;
-  }
+    #gform_fields_47 {
+        justify-content: flex-end;
+    }
+
+    .gform_footer {
+        text-align: left;
+    }
+
+    .gform_body,
+    .gform_footer {
+        width: auto;
+    }
+
+    #gform_submit_button_47,
+    #input_47_1,
+    #input_47_2,
+    #input_47_2_5 {
+        @media (max-width:767px) {
+            // padding: .4em;
+            line-height: 1em;
+            min-height: 1em;
+            margin-top: 0 !important;
+        }
+    #gform_submit_button_47 {
+      line-height: 1.1em;
+    }
+    }
+    @media (max-width:450px) {
+        flex-flow: column;
+
+        #gform_fields_47 {
+            justify-content: center;
+        }
+
+        .gform_footer {
+            text-align: center;
+        }
+
+        #gform_submit_button_47 {
+            padding: 10px 5px !important;
+            width: 85%;
+        }
+    }
 }
-
-
-
 //fixes border-box for email signup forms affected by gravity forms version update//
 #gform_submit_button_42,
 #gform_submit_button_43,
