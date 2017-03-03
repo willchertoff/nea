@@ -2980,15 +2980,19 @@ h3.blue-bg-h3 {
   #gform_47 #gform_fields_47 {
     justify-content: center;
   }
-  /* line 204, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+  /* line 202, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+  #gform_47 #gform_fields_47 #field_47_2 {
+    padding-top: 5px;
+  }
+  /* line 207, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
   #gform_47 .gform_footer {
     text-align: center;
   }
-  /* line 207, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+  /* line 210, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
   #gform_47 .ginput_right {
     padding-right: 0;
   }
-  /* line 211, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+  /* line 214, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
   #gform_47 #gform_submit_button_47 {
     padding: 10px 5px !important;
     margin: 10px 0 0 !important;
@@ -2997,7 +3001,7 @@ h3.blue-bg-h3 {
   }
 }
 
-/* line 220, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+/* line 223, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
 #gform_submit_button_42,
 #gform_submit_button_43,
 #gform_submit_button_44,
