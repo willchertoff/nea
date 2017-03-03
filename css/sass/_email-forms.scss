@@ -15,7 +15,7 @@
     @media (min-width: 1024px) {
 
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         /*min-height needed to accomodate red border on invalid field entries*/
         min-height: 75px;
 

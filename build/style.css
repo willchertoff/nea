@@ -2797,7 +2797,7 @@ h3.blue-bg-h3 {
   /* line 14, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
   #site-top-bar #sign-up {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     /*min-height needed to accomodate red border on invalid field entries*/
     min-height: 75px;
   }
