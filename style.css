@@ -314,7 +314,7 @@ Template: nea_v2
 
 #enews-email-capture-upper #gform_submit_button_43 {
     padding: 1em 0;
-    margin: 2em 0;
+    margin: 1em 0;
     font-size: 18px;
     font-weight: 200;
 }
@@ -416,6 +416,7 @@ Template: nea_v2
 }
 
 #enews #sign-up-bottom #enews-email-capture-lower #gform_submit_button_42 {
+    margin: 1em 0;
     font-size: 18px;
     font-weight: 200;
     width: 87%;
