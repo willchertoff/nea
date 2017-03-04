@@ -487,7 +487,7 @@ Template: nea_v2
 }
 
 #longform-email-capture #input_45_1, #longform-email-capture #input_45_2_5 {
-    margin: 1em auto;
+    /*margin: 1em auto;*/
     padding: 1em 0 1em 0;
     text-indent: 1em;
 }
@@ -509,7 +509,7 @@ Template: nea_v2
 
 #longform-email-capture #gform_submit_button_45 {
     padding: 1em 0;
-    margin: 2em 0;
+    margin: 1em 0;
     font-size: 18px;
     font-weight: 200;
 }
