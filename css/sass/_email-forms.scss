@@ -238,11 +238,6 @@
 }
 
 #gform_45 {
-    .gform_fields {
-        justify-content: space-around;
-        min-height: 155px;
-    }
-
     #field_45_1,
     #field_45_2 {
         margin: 0 !important;
@@ -253,13 +248,7 @@
     }
 }
 
-#gform_42, #gform_43 {
-    .gform_fields {
-        justify-content: space-around;
-        min-height: 155px;
-    }
-  }
-gform_42 {
+#gform_42 {
     #field_42_1,
     #field_42_2 {
         margin: 0 !important;
@@ -269,6 +258,24 @@ gform_42 {
         margin-top: 0 !important;
     }
 }
+
+#gform_43 {
+    #field_43_1,
+    #field_43_2 {
+        margin: 0 !important;
+    }
+
+    #input_43_2 {
+        margin-top: 0 !important;
+    }
+}
+
+#gform_42, #gform_43, #gform_45 {
+    .gform_fields {
+        justify-content: space-around;
+        min-height: 155px;
+    }
+  }
 //fixes border-box for email signup forms affected by gravity forms version update//
 
 #gform_submit_button_42,
