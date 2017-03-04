@@ -2974,7 +2974,7 @@ h3.blue-bg-h3 {
   line-height: 1.1em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   /* line 161, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
   #gform_47 {
     flex-flow: column;
