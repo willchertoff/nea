@@ -292,7 +292,7 @@ Template: nea_v2
 }
 
 #enews-email-capture-upper #input_43_1, #enews-email-capture-upper #input_43_2_5 {
-    margin: 1em auto;
+    margin: 0 auto;
     padding: 1em 0 1em 0;
     text-indent: 1em;
 }

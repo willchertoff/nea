@@ -253,12 +253,13 @@
     }
 }
 
-#gform_42 {
+#gform_42, #gform_43 {
     .gform_fields {
         justify-content: space-around;
         min-height: 155px;
     }
-
+  }
+gform_42 {
     #field_42_1,
     #field_42_2 {
         margin: 0 !important;

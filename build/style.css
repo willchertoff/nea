@@ -3026,23 +3026,23 @@ h3.blue-bg-h3 {
 }
 
 /* line 257, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
-#gform_42 .gform_fields {
+#gform_42 .gform_fields, #gform_43 .gform_fields {
   justify-content: space-around;
   min-height: 155px;
 }
 
-/* line 262, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
-#gform_42 #field_42_1,
-#gform_42 #field_42_2 {
+/* line 263, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+gform_42 #field_42_1,
+gform_42 #field_42_2 {
   margin: 0 !important;
 }
 
-/* line 267, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
-#gform_42 #input_42_2 {
+/* line 268, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+gform_42 #input_42_2 {
   margin-top: 0 !important;
 }
 
-/* line 273, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+/* line 274, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
 #gform_submit_button_42,
 #gform_submit_button_43,
 #gform_submit_button_44,
@@ -3065,7 +3065,7 @@ h3.blue-bg-h3 {
 }
 
 /*Gonna need to next this inside all these forms only*/
-/* line 300, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+/* line 301, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
 #gform_wrapper_42 .gform_wrapper li.gfield_error textarea,
 #gform_wrapper_42 li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
 #gform_wrapper_43 .gform_wrapper li.gfield_error textarea,
@@ -3081,7 +3081,7 @@ h3.blue-bg-h3 {
   border: 0 !important;
 }
 
-/* line 305, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
+/* line 306, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_email-forms.scss */
 #gform_wrapper_42 .gfield_error,
 #gform_wrapper_43 .gfield_error,
 #gform_wrapper_44 .gfield_error,
