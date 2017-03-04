@@ -390,10 +390,10 @@ Template: nea_v2
 }
 
 #sign-up-bottom #enews-email-capture-lower #input_42_1, #sign-up-bottom #enews-email-capture-lower #input_42_2_5 {
-    margin: 1em auto;
+    margin: 0 auto;
     padding: 1em 0 1em 0;
     text-indent: 1em;
-    width: 98%;
+    width: 100%;
 }
 
 #enews-email-capture-lower #input_42_1:focus, #enews-email-capture-lower #input_42_2_5:focus {
