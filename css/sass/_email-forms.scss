@@ -270,14 +270,183 @@
     }
 }
 
-#gform_42, #gform_43, #gform_45 {
+#gform_42,
+#gform_43,
+#gform_45 {
     .gform_fields {
         justify-content: space-around;
         min-height: 155px;
     }
-  }
-//fixes border-box for email signup forms affected by gravity forms version update//
+}
+////////////////////////
+////Shortcode form//////
+////////////////////////
 
+#nea-shortcode-email-banner {
+    // display: flex;
+    // flex-direction: row;
+
+    .capture-headers {
+      display: flex;
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bullets-and-box {
+      @media (max-width: 1023px) {
+        flex-direction: column;
+      }
+      @media (max-width: 450px) {
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 3%;
+    }
+
+    .capture-bullets {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 5%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .signup-box {
+        margin: 0 auto;
+        background-color: #0098DB;
+        border-top: 16px solid #003478;
+        padding-bottom: 2%;
+    }
+
+    .signup-box-headers {
+        text-align: center;
+        width: 70%;
+        margin: auto auto 1%;
+
+        h2 {
+            color: #003478;
+            text-transform: none;
+            font-weight: bolder;
+            margin-bottom: 1%;
+        }
+
+        p {
+            color: white;
+            padding-top: 2px;
+        }
+    }
+
+    #gf_46, #field_46_3, .gfield_label {
+        display: none;
+    }
+
+    // .gform_wrapper * {
+    //     width: 100%;
+    //     margin: 0;
+    //     padding: 0;
+    // }
+
+    #gform_wrapper_46 {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        * {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        // li {width: 100%;
+        // padding: 0;
+        // margin: 0;}
+
+
+    // .gform_wrapper li {
+    //     width: 100%;
+    //     padding: 0;
+    //     margin: 0;
+    // }
+
+    #gform_46 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    // .email-capture-form {
+    //     width: 100%;
+    // }
+
+    // .gform_wrapper ul,
+    // .salesforce_w2l_lead ul {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     width: 100%;
+    // }
+
+    #input_46_1,
+    #input_46_2_5 {
+        margin: 0.5em auto;
+        padding: 1em 0;
+        text-indent: 1em;
+        background-color: white;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    #input_46_1:focus,
+    #input_46_2_5:focus {
+        background-color: #003478;
+        color: white;
+    }
+
+    #input_46_2_5_container {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    #gform_submit_button_46 {
+        padding: 1em 0;
+        margin: 1em 0;
+        font-size: 18px;
+        font-weight: 200;
+        border-radius: 5px;
+    }
+
+    #gform_confirmation_message_46 {
+        text-align: center;
+        color: white;
+        padding: 3em 0;
+    }
+
+    #input_46_2_5_label {
+        display: none;
+    }
+  }
+
+    .gform_wrapper .ginput_complex .ginput_right {
+        min-height: 0;
+        vertical-align: middle;
+    }
+
+    #nea-banner-hr {
+        height: 2px;
+        background-color: #DEDEDE;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+}
+//fixes border-box for email signup forms affected by gravity forms version update//
 #gform_submit_button_42,
 #gform_submit_button_43,
 #gform_submit_button_44,

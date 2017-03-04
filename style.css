@@ -538,7 +538,7 @@ Template: nea_v2
 /*Styles for short code plugin*/
 
 
-#nea-shortcode-email-banner {
+/*#nea-shortcode-email-banner {
     display: flex;
     flex-direction: column;
 }
@@ -686,16 +686,16 @@ Template: nea_v2
 
 #nea-shortcode-email-banner #input_46_2_5_label {
     display: none;
-}
+}*/
 
-.gform_ajax_spinner {
+/*.gform_ajax_spinner {
     display: none;
 }
 
 #gform_46 .validation_error {
     color: #ffffff;
     border: solid #ef7f2c;
-}
+}*/
 
 
 /*************************************
