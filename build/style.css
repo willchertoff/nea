@@ -2703,25 +2703,35 @@ h3.blue-bg-h3 {
   line-height: 1.5em;
 }
 
-/* line 19, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+/* line 18, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+.footer .row .small-12 {
+  margin-top: 2em;
+}
+
+/* line 20, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+.footer .row .small-12 ul {
+  margin-top: .5em;
+}
+
+/* line 25, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
 .footer a {
   color: white;
   transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-/* line 22, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+/* line 28, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
 .footer a:hover {
   opacity: .7;
 }
 
-/* line 26, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+/* line 32, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
 .footer .last-footer-column {
   text-align: center;
   /*background: white;*/
   /*height: 100%;*/
 }
 
-/* line 32, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+/* line 38, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
 .footer #nhc-logo {
   width: 75%;
   max-width: 150px;
@@ -2730,16 +2740,16 @@ h3.blue-bg-h3 {
 }
 
 @media (max-width: 1023px) {
-  /* line 40, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+  /* line 46, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
   .footer .last-footer-column {
     width: 45%;
     text-align: left;
   }
-  /* line 44, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+  /* line 50, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
   .footer .columns:last-child:not(:first-child) {
     float: left;
   }
-  /* line 47, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
+  /* line 53, /Users/josetorres/Sites/eczema/wp-content/themes/nea_v2-child/css/sass/_footer.scss */
   .footer #nhc-logo {
     margin-top: 5%;
   }
