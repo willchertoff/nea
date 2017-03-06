@@ -204,6 +204,11 @@
 
     #gform_submit_button_47 {
         line-height: 1.1em;
+        @include link-transition();
+        &:hover {
+          background:white;
+          color:#739600;
+        }
     }
     @media (max-width:767px) {
         flex-flow: column;
@@ -270,9 +275,21 @@
     }
 }
 
+#gform_46 {
+    #field_46_1,
+    #field_46_2 {
+        margin: 0 !important;
+    }
+
+    #input_46_2 {
+        margin-top: 0 !important;
+    }
+}
+
 #gform_42,
 #gform_43,
-#gform_45 {
+#gform_45,
+#gform_46 {
     .gform_fields {
         justify-content: space-around;
         min-height: 155px;
@@ -375,9 +392,22 @@
 
     #gform_46 {
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         flex-direction: column;
         width: 100%;
+        .gform_body {
+          #gform_fields_46 {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        #field_46_1, #field_46_2{
+
+       .validation_message {
+            display: none;
+        }
+      }
     }
 
     // .email-capture-form {
@@ -394,19 +424,17 @@
 
     #input_46_1,
     #input_46_2_5 {
-        margin: 0.5em auto;
+        margin: 0 auto !important;
         padding: 1em 0;
         text-indent: 1em;
         background-color: white;
         border: 0;
         border-radius: 5px;
-    }
-
-    #input_46_1:focus,
-    #input_46_2_5:focus {
+        &:focus {
         background-color: #003478;
         color: white;
     }
+  }
 
     #input_46_2_5_container {
         width: 100%;
@@ -421,6 +449,11 @@
         font-size: 18px;
         font-weight: 200;
         border-radius: 5px;
+        @include link-transition();
+        &:hover {
+          background:white;
+          color:#739600;
+        }
     }
 
     #gform_confirmation_message_46 {
