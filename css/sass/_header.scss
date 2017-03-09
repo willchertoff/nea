@@ -169,12 +169,15 @@
             background-color: $blueD;
         }
         >a {
-            padding: 2em 0;
+            padding: 1.7em .5em;
             font-size: 14px;
             color: white;
-            display: block;
+            // display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             @include link-transition();
-            transition-delay: .1s;
+            transition-delay: .2s;
             text-transform: uppercase;
             letter-spacing: 2px;
             height: 100%;
@@ -198,7 +201,7 @@
             text-align: left;
             display: flex;
             justify-content: space-around;
-            transition: all 600ms ubic-bezier(0.075, 0.82, 0.165, 1);
+            // transition: all 600ms ubic-bezier(0.075, 0.82, 0.165, 1);
             background-color: $blue;
             li {
                 display: inline;
